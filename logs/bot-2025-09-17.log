@@ -1,0 +1,25 @@
+[2025-09-24T18:00:00.584Z] [INFO] Checking for completed matches...
+[2025-09-24T18:00:00.765Z] [ERROR] Error fetching league matches:
+AxiosError: Request failed with status code 401
+    at settle (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\axios\dist\node\axios.cjs:2097:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\axios\dist\node\axios.cjs:3305:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\axios\dist\node\axios.cjs:4483:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async FotmobService.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobService.js:29:24)
+    at async FotmobService.getCompletedMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobService.js:59:21)
+    at async Task.checkAndPostMatches [as _execution] (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\index.js:21:30)
+[2025-09-24T18:00:00.767Z] [ERROR] Error in checkAndPostMatches:
+AxiosError: Request failed with status code 401
+    at settle (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\axios\dist\node\axios.cjs:2097:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\axios\dist\node\axios.cjs:3305:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\axios\dist\node\axios.cjs:4483:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async FotmobService.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobService.js:29:24)
+    at async FotmobService.getCompletedMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobService.js:59:21)
+    at async Task.checkAndPostMatches [as _execution] (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\index.js:21:30)

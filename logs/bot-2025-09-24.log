@@ -1,0 +1,451 @@
+[2025-09-24T17:27:19.223Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async FotmobScraper.getCompletedMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:246:21)
+    at async checkAndPostMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\index.js:21:30)
+[2025-09-24T17:27:19.227Z] [INFO] No new completed matches found
+[2025-09-24T17:27:19.744Z] [INFO] Browser closed
+[2025-09-24T17:37:15.850Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:37:17.002Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T17:38:39.358Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:38:40.230Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T17:39:40.245Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async testScraper (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\scraper-test.js:16:21)
+[2025-09-24T17:39:40.930Z] [INFO] Browser closed
+[2025-09-24T17:40:55.754Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:40:56.828Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T17:41:56.837Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async testScraper (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\scraper-test.js:16:21)
+[2025-09-24T17:41:57.763Z] [INFO] Browser closed
+[2025-09-24T17:42:37.224Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:42:38.187Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T17:43:38.191Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async testScraper (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\scraper-test.js:16:21)
+[2025-09-24T17:43:38.700Z] [INFO] Browser closed
+[2025-09-24T17:51:28.767Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:51:29.640Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T17:52:29.648Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async testScraper (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\scraper-test.js:16:21)
+[2025-09-24T17:52:29.983Z] [INFO] Browser closed
+[2025-09-24T17:57:29.592Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:57:30.311Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T17:58:30.313Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async testScraper (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\scraper-test.js:16:21)
+[2025-09-24T17:58:30.696Z] [INFO] Browser closed
+[2025-09-24T17:59:48.775Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:59:49.741Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T17:59:49.743Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T17:59:50.818Z] [WARN] Navigation attempt 1 failed:
+[2025-09-24T17:59:50.820Z] [ERROR] Error fetching league matches:
+TypeError: this.page.waitForTimeout is not a function
+    at FotmobScraper.navigateWithRetry (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:122:25)
+    at async FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:136:7)
+    at async testScraper (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\scraper-test.js:16:21)
+[2025-09-24T17:59:51.225Z] [INFO] Browser closed
+[2025-09-24T17:59:57.677Z] [INFO] Initializing browser for web scraping
+[2025-09-24T17:59:58.478Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T17:59:58.480Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:00:00.318Z] [INFO] Checking for completed matches...
+[2025-09-24T18:00:00.327Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:00:00.560Z] [INFO] Checking for completed matches...
+[2025-09-24T18:00:00.594Z] [INFO] Checking for completed matches...
+[2025-09-24T18:00:00.595Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:00:00.562Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:00:00.736Z] [INFO] Checking for completed matches...
+[2025-09-24T18:00:00.738Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:00:02.426Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:00:03.284Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T18:00:03.522Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T18:00:04.344Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T18:00:06.611Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/292/Premier-Soccer-League/overview
+[2025-09-24T18:00:12.444Z] [ERROR] Error fetching league matches:
+TypeError: logger.debug is not a function
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:156:18)
+    at async testScraper (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\scraper-test.js:16:21)
+[2025-09-24T18:00:20.261Z] [INFO] Browser closed
+[2025-09-24T18:01:03.294Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async FotmobScraper.getCompletedMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:246:21)
+    at async Task.checkAndPostMatches [as _execution] (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\index.js:21:30)
+[2025-09-24T18:01:03.296Z] [INFO] No new completed matches found
+[2025-09-24T18:01:03.539Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async FotmobScraper.getCompletedMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:246:21)
+    at async Task.checkAndPostMatches [as _execution] (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\index.js:21:30)
+[2025-09-24T18:01:03.542Z] [INFO] No new completed matches found
+[2025-09-24T18:01:04.356Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async FotmobScraper.getCompletedMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:246:21)
+    at async Task.checkAndPostMatches [as _execution] (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\index.js:21:30)
+[2025-09-24T18:01:04.358Z] [INFO] No new completed matches found
+[2025-09-24T18:01:05.400Z] [INFO] Browser closed
+[2025-09-24T18:01:06.620Z] [ERROR] Error fetching league matches:
+TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:59:34)
+    at Deferred.create (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\Deferred.js:21:16)
+    at new LifecycleWatcher (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:69:60)
+    at CdpFrame.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:151:29)
+    at CdpFrame.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:98:27)
+    at CdpPage.goto (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:588:43)
+    at FotmobScraper.getLeagueMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:72:23)
+    at async FotmobScraper.getCompletedMatches (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\fotmobScraper.js:246:21)
+    at async Task.checkAndPostMatches [as _execution] (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\index.js:21:30)
+[2025-09-24T18:01:06.621Z] [INFO] No new completed matches found
+[2025-09-24T18:01:07.501Z] [INFO] Browser closed
+[2025-09-24T18:01:07.795Z] [INFO] Browser closed
+[2025-09-24T18:01:07.931Z] [INFO] Browser closed
+[2025-09-24T18:01:11.432Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:01:12.338Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:01:12.340Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:01:16.207Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:01:26.214Z] [DEBUG] Selector .css-1m9dpu0 not found, trying next...
+[2025-09-24T18:01:36.217Z] [DEBUG] Selector [data-testid="match-row"] not found, trying next...
+[2025-09-24T18:01:46.223Z] [DEBUG] Selector .match-row not found, trying next...
+[2025-09-24T18:01:56.232Z] [DEBUG] Selector .match not found, trying next...
+[2025-09-24T18:02:06.237Z] [DEBUG] Selector [class*="match"] not found, trying next...
+[2025-09-24T18:02:16.239Z] [DEBUG] Selector [class*="fixture"] not found, trying next...
+[2025-09-24T18:02:16.240Z] [WARN] No match selectors found, trying to extract from page content
+[2025-09-24T18:02:16.528Z] [INFO] Found 19 potential match elements
+[2025-09-24T18:02:16.551Z] [DEBUG] Extracted match: W vs D
+[2025-09-24T18:02:16.559Z] [DEBUG] Extracted match: W vs D
+[2025-09-24T18:02:16.569Z] [DEBUG] Extracted match: W vs D
+[2025-09-24T18:02:16.578Z] [DEBUG] Extracted match: W vs D
+[2025-09-24T18:02:16.587Z] [DEBUG] Extracted match: W vs D
+[2025-09-24T18:02:16.595Z] [DEBUG] Extracted match: W vs D
+[2025-09-24T18:02:16.602Z] [DEBUG] Extracted match: W vs D
+[2025-09-24T18:02:16.604Z] [DEBUG] Extracted match: LIVE | Kaizer Chiefs vs Marumo Gallants – Wednesday, 24 September vs The South African
+[2025-09-24T18:02:16.605Z] [DEBUG] Extracted match: LIVE | Kaizer Chiefs vs Marumo Gallants – Wednesday, 24 September vs The South African
+[2025-09-24T18:02:16.607Z] [DEBUG] Extracted match: LIVE | Kaizer Chiefs vs Marumo Gallants – Wednesday, 24 September vs The South African
+[2025-09-24T18:02:16.609Z] [DEBUG] Extracted match: LIVE | Kaizer Chiefs vs Marumo Gallants – Wednesday, 24 September vs The South African
+[2025-09-24T18:02:16.611Z] [DEBUG] Extracted match: LIVE | Kaizer Chiefs vs Marumo Gallants – Wednesday, 24 September vs The South African
+[2025-09-24T18:02:16.612Z] [DEBUG] Extracted match: Full round of Heritage Day matches in the Betway Premiership vs The South African
+[2025-09-24T18:02:16.613Z] [DEBUG] Extracted match: Full round of Heritage Day matches in the Betway Premiership vs The South African
+[2025-09-24T18:02:16.616Z] [DEBUG] Extracted match: FotMob is the essential football app.MatchesNewsTransfer CenterAbout usCareersAdvertiseLineup BuilderFAQFIFA Rankings MenFIFA Rankings WomenPredictorNewsletterGet the app vs FotMob is the essential football app.
+[2025-09-24T18:02:16.618Z] [DEBUG] Extracted match: FotMob is the essential football app. vs Get the app
+[2025-09-24T18:02:16.620Z] [DEBUG] Extracted match: FotMob is the essential football app. vs Get the app
+[2025-09-24T18:02:16.620Z] [INFO] Successfully extracted 17 matches
+[2025-09-24T18:02:16.624Z] [INFO] Navigating to match page: https://www.fotmob.com/match/#main-content
+[2025-09-24T18:02:16.625Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/match/#main-content
+[2025-09-24T18:02:21.012Z] [INFO] Successfully navigated to https://www.fotmob.com/match/#main-content
+[2025-09-24T18:02:31.013Z] [DEBUG] Detail selector .css-1m9dpu0 not found, trying next...
+[2025-09-24T18:02:41.015Z] [DEBUG] Detail selector [data-testid="match-details"] not found, trying next...
+[2025-09-24T18:02:51.022Z] [DEBUG] Detail selector .match-details not found, trying next...
+[2025-09-24T18:03:01.029Z] [DEBUG] Detail selector .match-info not found, trying next...
+[2025-09-24T18:03:01.404Z] [INFO] Successfully scraped details for match #main-content
+[2025-09-24T18:03:01.894Z] [INFO] Browser closed
+[2025-09-24T18:03:26.938Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:03:27.970Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:03:27.973Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:03:31.536Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:03:41.548Z] [DEBUG] Selector .css-1m9dpu0 not found, trying next...
+[2025-09-24T18:03:51.556Z] [DEBUG] Selector [data-testid="match-row"] not found, trying next...
+[2025-09-24T18:04:01.567Z] [DEBUG] Selector .match-row not found, trying next...
+[2025-09-24T18:04:11.572Z] [DEBUG] Selector .match not found, trying next...
+[2025-09-24T18:04:21.575Z] [DEBUG] Selector [class*="match"] not found, trying next...
+[2025-09-24T18:04:31.580Z] [DEBUG] Selector [class*="fixture"] not found, trying next...
+[2025-09-24T18:04:31.581Z] [WARN] No match selectors found, trying to extract from page content
+[2025-09-24T18:04:31.947Z] [INFO] Found 19 potential match elements
+[2025-09-24T18:04:31.962Z] [INFO] Successfully extracted 0 matches
+[2025-09-24T18:04:32.340Z] [INFO] Browser closed
+[2025-09-24T18:04:44.776Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:04:45.560Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:04:49.450Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:04:58.133Z] [INFO] Browser closed
+[2025-09-24T18:05:24.322Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:05:25.399Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:05:25.402Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:05:29.504Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:05:29.781Z] [INFO] Found matches using selector: article
+[2025-09-24T18:05:30.234Z] [INFO] Found 1 potential match elements
+[2025-09-24T18:05:30.255Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T18:05:30.256Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T18:05:30.259Z] [INFO] Navigating to match page: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:05:30.260Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:05:34.463Z] [INFO] Successfully navigated to https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:05:44.468Z] [DEBUG] Detail selector .css-1m9dpu0 not found, trying next...
+[2025-09-24T18:05:54.474Z] [DEBUG] Detail selector [data-testid="match-details"] not found, trying next...
+[2025-09-24T18:06:04.480Z] [DEBUG] Detail selector .match-details not found, trying next...
+[2025-09-24T18:06:14.494Z] [DEBUG] Detail selector .match-info not found, trying next...
+[2025-09-24T18:06:14.643Z] [INFO] Successfully scraped details for match sekhukhune-united
+[2025-09-24T18:06:15.013Z] [INFO] Browser closed
+[2025-09-24T18:07:23.499Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:07:24.330Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:07:24.332Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:07:27.893Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:07:28.257Z] [INFO] Found matches using selector: article
+[2025-09-24T18:07:28.520Z] [INFO] Found 1 potential match elements
+[2025-09-24T18:07:28.534Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T18:07:28.535Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T18:07:28.537Z] [INFO] Navigating to match page: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:07:28.538Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:07:32.851Z] [INFO] Successfully navigated to https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:07:42.865Z] [DEBUG] Detail selector .css-1m9dpu0 not found, trying next...
+[2025-09-24T18:07:52.871Z] [DEBUG] Detail selector [data-testid="match-details"] not found, trying next...
+[2025-09-24T18:08:02.886Z] [DEBUG] Detail selector .match-details not found, trying next...
+[2025-09-24T18:08:12.894Z] [DEBUG] Detail selector .match-info not found, trying next...
+[2025-09-24T18:08:13.010Z] [INFO] Successfully scraped details for match sekhukhune-united
+[2025-09-24T18:08:13.313Z] [INFO] Browser closed
+[2025-09-24T18:09:33.120Z] [INFO] Loaded 0 previously posted matches
+[2025-09-24T18:09:33.122Z] [INFO] Starting South African Football Match Bot
+[2025-09-24T18:09:33.122Z] [INFO] Monitoring league ID: 537
+[2025-09-24T18:09:33.127Z] [INFO] Checking for completed matches...
+[2025-09-24T18:09:33.128Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:09:33.130Z] [INFO] Bot is running. Press Ctrl+C to exit.
+[2025-09-24T18:09:33.977Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:09:33.991Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:09:39.963Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:09:40.224Z] [INFO] Found matches using selector: article
+[2025-09-24T18:09:40.718Z] [INFO] Found 1 potential match elements
+[2025-09-24T18:09:40.759Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T18:09:40.760Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T18:09:40.761Z] [INFO] No new completed matches found
+[2025-09-24T18:09:41.147Z] [INFO] Browser closed
+[2025-09-24T18:13:46.166Z] [ERROR] Error generating match graphic:
+Error: file must be a string
+    at Jimp.throwError (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\utils\dist\index.js:21:13)
+    at Jimp.loadFont (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\plugin-print\dist\index.js:76:62)
+    at ImageGenerator.generateMatchGraphic (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\imageGenerator.js:76:35)
+    at async testImageGeneration (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\test-image-generator.js:54:25)
+[2025-09-24T18:14:38.662Z] [ERROR] Error generating match graphic:
+Error: font must be a Jimp loadFont
+    at Jimp.throwError (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\utils\dist\index.js:21:13)
+    at Jimp.print (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\plugin-print\dist\index.js:136:34)
+    at ImageGeneratorSimple.drawTeamInfo (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\imageGeneratorSimple.js:100:11)
+    at ImageGeneratorSimple.generateMatchGraphic (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\imageGeneratorSimple.js:71:18)
+    at testImageGeneration (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\test-image-generator.js:54:46)
+    at Object.<anonymous> (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\test-image-generator.js:75:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+[2025-09-24T18:27:05.396Z] [INFO] Creating match graphic...
+[2025-09-24T18:27:05.429Z] [INFO] Loading fonts...
+[2025-09-24T18:27:05.640Z] [INFO] Getting team data...
+[2025-09-24T18:27:05.646Z] [INFO] Drawing team info...
+[2025-09-24T18:27:05.696Z] [INFO] Drawing stats...
+[2025-09-24T18:27:05.709Z] [INFO] Drawing league info...
+[2025-09-24T18:27:05.804Z] [INFO] Converting to buffer...
+[2025-09-24T18:27:06.011Z] [INFO] Generated match graphic for Kaizer Chiefs vs Mamelodi Sundowns FC
+[2025-09-24T18:27:38.712Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:27:39.902Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:27:39.904Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:27:43.524Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:27:43.775Z] [INFO] Found matches using selector: article
+[2025-09-24T18:27:44.261Z] [INFO] Found 1 potential match elements
+[2025-09-24T18:27:44.276Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T18:27:44.277Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T18:27:44.280Z] [INFO] Navigating to match page: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:27:44.281Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:27:48.611Z] [INFO] Successfully navigated to https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:27:58.620Z] [DEBUG] Detail selector .css-1m9dpu0 not found, trying next...
+[2025-09-24T18:28:08.644Z] [DEBUG] Detail selector [data-testid="match-details"] not found, trying next...
+[2025-09-24T18:28:18.663Z] [DEBUG] Detail selector .match-details not found, trying next...
+[2025-09-24T18:28:28.665Z] [DEBUG] Detail selector .match-info not found, trying next...
+[2025-09-24T18:28:28.800Z] [INFO] Successfully scraped details for match sekhukhune-united
+[2025-09-24T18:28:29.266Z] [INFO] Browser closed
+[2025-09-24T18:28:38.515Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:28:39.258Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:28:39.260Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:28:42.956Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:28:43.231Z] [INFO] Found matches using selector: article
+[2025-09-24T18:28:43.639Z] [INFO] Found 1 potential match elements
+[2025-09-24T18:28:43.662Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T18:28:43.663Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T18:28:43.665Z] [INFO] Navigating to match page: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:28:43.666Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:28:47.691Z] [INFO] Successfully navigated to https://www.fotmob.com/match/sekhukhune-united
+[2025-09-24T18:28:57.709Z] [DEBUG] Detail selector .css-1m9dpu0 not found, trying next...
+[2025-09-24T18:29:07.724Z] [DEBUG] Detail selector [data-testid="match-details"] not found, trying next...
+[2025-09-24T18:29:17.734Z] [DEBUG] Detail selector .match-details not found, trying next...
+[2025-09-24T18:29:27.739Z] [DEBUG] Detail selector .match-info not found, trying next...
+[2025-09-24T18:29:27.883Z] [INFO] Successfully scraped details for match sekhukhune-united
+[2025-09-24T18:29:27.885Z] [INFO] Creating match graphic...
+[2025-09-24T18:29:27.917Z] [INFO] Loading fonts...
+[2025-09-24T18:29:28.097Z] [INFO] Getting team data...
+[2025-09-24T18:29:28.098Z] [INFO] Drawing team info...
+[2025-09-24T18:29:28.105Z] [INFO] Drawing stats...
+[2025-09-24T18:29:28.106Z] [INFO] Drawing league info...
+[2025-09-24T18:29:28.147Z] [INFO] Converting to buffer...
+[2025-09-24T18:29:28.305Z] [INFO] Generated match graphic for  vs 
+[2025-09-24T18:29:28.653Z] [INFO] Browser closed
+[2025-09-24T18:36:40.086Z] [INFO] Loaded 0 previously posted matches
+[2025-09-24T18:36:40.087Z] [INFO] Starting South African Football Match Bot
+[2025-09-24T18:36:40.088Z] [INFO] Monitoring league ID: 537
+[2025-09-24T18:36:40.092Z] [INFO] Checking for completed matches...
+[2025-09-24T18:36:40.093Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:36:40.095Z] [INFO] Bot is running. Press Ctrl+C to exit.
+[2025-09-24T18:36:41.067Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:36:41.069Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:36:44.877Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:36:45.332Z] [INFO] Found matches using selector: article
+[2025-09-24T18:36:45.789Z] [INFO] Found 1 potential match elements
+[2025-09-24T18:36:45.803Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T18:36:45.804Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T18:36:45.805Z] [INFO] No new completed matches found
+[2025-09-24T18:36:46.203Z] [INFO] Browser closed
+[2025-09-24T18:39:19.704Z] [INFO] Loaded 0 previously posted matches
+[2025-09-24T18:39:19.705Z] [INFO] Starting South African Football Match Bot
+[2025-09-24T18:39:19.706Z] [INFO] Monitoring league ID: 537
+[2025-09-24T18:39:19.711Z] [INFO] Checking for completed matches...
+[2025-09-24T18:39:19.712Z] [INFO] Initializing browser for web scraping
+[2025-09-24T18:39:19.714Z] [INFO] Bot is running. Press Ctrl+C to exit.
+[2025-09-24T18:39:20.401Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:39:20.454Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:39:24.869Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T18:39:25.214Z] [INFO] Found matches using selector: article
+[2025-09-24T18:39:25.717Z] [INFO] Found 1 potential match elements
+[2025-09-24T18:39:25.735Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T18:39:25.736Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T18:39:25.737Z] [INFO] No new completed matches found
+[2025-09-24T18:39:26.227Z] [INFO] Browser closed
+[2025-09-24T18:54:16.123Z] [INFO] Loaded 0 previously posted matches
+[2025-09-24T18:54:16.638Z] [INFO] Creating match graphic...
+[2025-09-24T18:54:16.672Z] [INFO] Loading fonts...
+[2025-09-24T18:54:16.823Z] [INFO] Getting team data...
+[2025-09-24T18:54:16.825Z] [INFO] Drawing team info...
+[2025-09-24T18:54:16.841Z] [INFO] Drawing stats...
+[2025-09-24T18:54:16.845Z] [INFO] Drawing league info...
+[2025-09-24T18:54:16.881Z] [INFO] Converting to buffer...
+[2025-09-24T18:54:17.034Z] [INFO] Generated match graphic for Kaizer Chiefs vs Mamelodi Sundowns FC
+[2025-09-24T18:54:17.838Z] [INFO] Uploaded image to Twitter
+[2025-09-24T18:54:18.186Z] [INFO] Saved 1 posted matches
+[2025-09-24T18:54:18.187Z] [SUCCESS] Posted match test-match-123 to Twitter
+[2025-09-24T18:58:33.702Z] [INFO] Creating match graphic...
+[2025-09-24T18:58:33.749Z] [INFO] Loading fonts...
+[2025-09-24T18:58:33.928Z] [ERROR] Error generating match graphic:
+Error: file must be a string
+    at Jimp.throwError (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\utils\dist\index.js:21:13)
+    at Jimp.loadFont (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\plugin-print\dist\index.js:76:62)
+    at ImageGenerator.generateMatchGraphic (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\imageGenerator.js:78:35)
+    at async testEnhancedGraphics (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\test-enhanced-graphics.js:54:25)
+[2025-09-24T18:59:25.568Z] [INFO] Creating enhanced match graphic...
+[2025-09-24T18:59:25.630Z] [INFO] Loading fonts...
+[2025-09-24T18:59:25.817Z] [ERROR] Error generating match graphic:
+Error: file must be a string
+    at Jimp.throwError (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\utils\dist\index.js:21:13)
+    at Jimp.loadFont (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\plugin-print\dist\index.js:76:62)
+    at ImageGeneratorEnhanced.generateMatchGraphic (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\imageGeneratorEnhanced.js:66:35)
+    at async testEnhancedGraphics (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\test-enhanced-graphics.js:54:25)
+[2025-09-24T19:00:00.703Z] [INFO] Checking for completed matches...
+[2025-09-24T19:00:00.704Z] [INFO] Initializing browser for web scraping
+[2025-09-24T19:00:01.532Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:00:01.533Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:00:06.025Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:00:06.276Z] [INFO] Found matches using selector: article
+[2025-09-24T19:00:06.665Z] [INFO] Found 1 potential match elements
+[2025-09-24T19:00:06.679Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T19:00:06.680Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T19:00:06.681Z] [INFO] No new completed matches found
+[2025-09-24T19:00:07.079Z] [INFO] Browser closed
+[2025-09-24T19:00:55.034Z] [INFO] Creating match graphic...
+[2025-09-24T19:00:55.075Z] [INFO] Loading fonts...
+[2025-09-24T19:00:55.238Z] [ERROR] Error generating match graphic:
+Error: file must be a string
+    at Jimp.throwError (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\utils\dist\index.js:21:13)
+    at Jimp.loadFont (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\node_modules\@jimp\plugin-print\dist\index.js:76:62)
+    at ImageGenerator.generateMatchGraphic (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\src\imageGenerator.js:78:35)
+    at async testCurrentGraphics (C:\Users\matki\fotmob-match-bot\fotmob-sa-bot\scripts\test-current-graphics.js:50:25)
+[2025-09-24T19:01:23.189Z] [INFO] Creating match graphic...
+[2025-09-24T19:01:23.227Z] [INFO] Getting team data...
+[2025-09-24T19:01:23.228Z] [INFO] Drawing basic elements...
+[2025-09-24T19:01:23.255Z] [INFO] Drawing stats...
+[2025-09-24T19:01:23.269Z] [INFO] Drawing league info...
+[2025-09-24T19:01:23.282Z] [INFO] Converting to buffer...
+[2025-09-24T19:01:23.466Z] [INFO] Generated match graphic for Kaizer Chiefs vs Mamelodi Sundowns FC
+[2025-09-24T19:01:30.823Z] [INFO] Loaded 1 previously posted matches
+[2025-09-24T19:01:30.824Z] [INFO] Starting South African Football Match Bot
+[2025-09-24T19:01:30.824Z] [INFO] Monitoring league ID: 537
+[2025-09-24T19:01:30.830Z] [INFO] Checking for completed matches...
+[2025-09-24T19:01:30.831Z] [INFO] Initializing browser for web scraping
+[2025-09-24T19:01:30.833Z] [INFO] Bot is running. Press Ctrl+C to exit.
+[2025-09-24T19:01:32.113Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:01:32.114Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:01:35.872Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:01:36.356Z] [INFO] Found matches using selector: article
+[2025-09-24T19:01:36.792Z] [INFO] Found 1 potential match elements
+[2025-09-24T19:01:36.816Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T19:01:36.817Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T19:01:36.818Z] [INFO] No new completed matches found
+[2025-09-24T19:01:37.491Z] [INFO] Browser closed
+[2025-09-24T19:04:23.406Z] [INFO] Loaded 1 previously posted matches
+[2025-09-24T19:04:23.407Z] [INFO] Starting South African Football Match Bot
+[2025-09-24T19:04:23.408Z] [INFO] Monitoring league ID: 537
+[2025-09-24T19:04:23.414Z] [INFO] Checking for completed matches...
+[2025-09-24T19:04:23.415Z] [INFO] Initializing browser for web scraping
+[2025-09-24T19:04:23.417Z] [INFO] Bot is running. Press Ctrl+C to exit.
+[2025-09-24T19:04:24.226Z] [INFO] Navigating to league page: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:04:24.227Z] [INFO] Navigation attempt 1/3 to: https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:04:28.076Z] [INFO] Successfully navigated to https://www.fotmob.com/leagues/537/Premier-Soccer-League/overview
+[2025-09-24T19:04:28.400Z] [INFO] Found matches using selector: article
+[2025-09-24T19:04:28.900Z] [INFO] Found 1 potential match elements
+[2025-09-24T19:04:28.920Z] [DEBUG] Extracted match: Sekhukhune United vs Mamelodi Sundowns FC
+[2025-09-24T19:04:28.921Z] [INFO] Successfully extracted 1 matches
+[2025-09-24T19:04:28.922Z] [INFO] No new completed matches found
+[2025-09-24T19:04:29.806Z] [INFO] Browser closed
