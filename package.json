@@ -1,0 +1,33 @@
+{
+  "name": "fotmob-sa-bot",
+  "version": "1.0.0",
+  "description": "Bot that tweets South African match graphics using Fotmob data",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "stop": "node scripts/stop.js",
+    "dev": "node scripts/run.js",
+    "test": "node scripts/mock-test.js",
+    "test:twitter": "node scripts/twitter-test.js"
+  },
+  "keywords": [
+    "fotmob",
+    "twitter",
+    "bot",
+    "football",
+    "south africa",
+    "match graphics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "jimp": "^0.22.10",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^22.0.0",
+    "sharp": "^0.33.2",
+    "twitter-api-v2": "^1.15.1"
+  }
+}
