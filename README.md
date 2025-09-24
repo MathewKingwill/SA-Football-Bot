@@ -9,8 +9,6 @@ This project fetches match data from [FotMob](https://www.fotmob.com/) and rende
 match graphics similar to broadcast overlays. The generated image can optionally
 be posted to Twitter/X using the Tweepy library.
 
-Because the repository cannot ship with real API credentials you must provide
-your own Twitter developer keys via environment variables when posting updates.
 
 ## Getting started
 
